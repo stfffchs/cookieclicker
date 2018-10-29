@@ -15,7 +15,6 @@ h1{
 
 h2{
 	font-size: 2rem;
-
 }
 
 h3{
@@ -94,7 +93,7 @@ h4{
 
 .float-right{
 	float: right;
-    width: 50%;
+    width: 400px;
     height: auto;
     margin-top: 20px;
     margin-right: 20px;
@@ -104,7 +103,7 @@ h4{
 	display: none;
 }
 
-.top-right{
+/*.top-right{
 	text-align: right;
     margin-right: 40px;
 }
@@ -112,7 +111,7 @@ h4{
 .top-center{
 	text-align: center;
 	vertical-align: top;
-}
+}*/
 
 
 /*ID Attributes----------------------------------------------*/
@@ -141,7 +140,7 @@ h4{
 
 #firework
 	{
-	background: url("../img/Party.jpg");
+	background: black;
 /*	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
