@@ -119,11 +119,7 @@ let clicker = function(grow) {
 	if (points >= 300){
 			firework.classList.remove("hidden");
 		}
-	
-/*Start Overlay Gameover -----------------------------------------------------------------------------*/
 
-
-		
 }
 
 cookie.addEventListener("click", clicker);
@@ -131,16 +127,39 @@ cookie.addEventListener("mouseup", shrink);
 cookie.addEventListener("mousedown", stopshrink);
 
 
-/*Start Interval -----------------------------------------------------------------------------*/
+/*Start Interval -------------------------------------------------------------------------------------*/
 window.setInterval(function(showpoints){
 	points = points - 2;
 	counter.innerHTML = points;
-	
-			
-	if(points <= 0){
+
+/*Start Overlay Gameover -----------------------------------------------------------------------------*/
+    if(points <= 0){
 	  gameover.classList.remove("hidden");
 	}
 }, 900);
+
+
+/*Start h4 animation -----------------------------------------------------------------------------*/
+$('.h4').each(function(){
+    $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
+
+anime.timeline({loop: true})
+    .add({
+        targets: '.h4 .letter',
+        opacity: [0,1],
+        easing: "easeInOutQuad",
+        duration: 2250,
+        delay: function(el, i) {
+            return 150 * (i+1)
+        }
+    }).add({
+    targets: '.h4',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+});
 
 
 
