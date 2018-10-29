@@ -115,6 +115,9 @@ h4{
 
 
 /*ID Attributes----------------------------------------------*/
+#cookie-mask{
+	width: 100vh;
+}
 #cookie{
 	position: absolute;
 	margin: auto;
@@ -125,10 +128,15 @@ h4{
 	z-index: -1;
 }
 
-#cookie-mask{
-	width: 100vh;
+#eyecatcher{
+	position: absolute;
+	margin: auto;
+	bottom:	0px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: -100;
 }
-
 
 #to-bottom{
 	position:fixed; 
