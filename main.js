@@ -54,62 +54,62 @@ let clicker = function(grow) {
 	}
 	},100);
 	
-	if (points >= 60){
+	if (points >= 50){
 		p2.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 60){
+		if(points < 50){
 		p2.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 90){
+	if (points >= 93){
 		p3.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 90){
+		if(points < 93){
 		p3.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 120){
+	if (points >= 114){
 		p4.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 120){
+		if(points < 114){
 		p4.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 150){
+	if (points >= 185){
 		p5.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 150){
+		if(points < 185){
 		p5.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 180){
+	if (points >= 260){
 		p6.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 180){
+		if(points < 260){
 		p6.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 210){
+	if (points >= 296){
 		p8.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 210){
+		if(points < 296){
 		p8.classList.add("hidden");
 	}
 	},100);
