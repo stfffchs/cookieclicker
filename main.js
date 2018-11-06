@@ -29,13 +29,11 @@ function stopshrink(){
 let clicker = function(grow) {
 	cookie.setAttribute("style", "width: "+(100+points)+"px;" );
 
-	if (points > 200) {
-		points = points + 4;
+	if (points > 100) {
+		points = points + 2;
 	} 
 	
-	if(points > 400) {
-		points =points + 8;
-	}
+
 	
 	else {
 		points = points + 2;
@@ -54,69 +52,69 @@ let clicker = function(grow) {
 	}
 	},100);
 	
-	if (points >= 50){
+	if (points >= 210){
 		p2.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 50){
+		if(points < 210){
 		p2.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 93){
+	if (points >= 356){
 		p3.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 93){
+		if(points < 356){
 		p3.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 114){
+	if (points >= 400){
 		p4.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 114){
+		if(points < 400){
 		p4.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 185){
+	if (points >= 580){
 		p5.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 185){
+		if(points < 580){
 		p5.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 260){
+	if (points >= 730){
 		p6.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 260){
+		if(points < 730){
 		p6.classList.add("hidden");
 	}
 	},100);
 	
-	if (points >= 296){
+	if (points >= 990){
 		p8.classList.remove("hidden");
 	}
 	
 	setInterval(function(){
-		if(points < 296){
+		if(points < 990){
 		p8.classList.add("hidden");
 	}
 	},100);
 
 	
 /*Start Overlay Firework -----------------------------------------------------------------------------*/
-	if (points >= 300){
+	if (points >= 1000){
 			firework.classList.remove("hidden");
 		}
 
