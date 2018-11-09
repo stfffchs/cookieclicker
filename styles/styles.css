@@ -33,27 +33,28 @@ h4{
 
 @media all and (max-width: 780px) {
 	h1{
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 
 	h2{
-		font-size: 0.5rem;
-
+		font-size: 0.9rem;
 	}
 
 	h3{
 		font-size: 2rem;
 		color: lightpink;
 		z-index: 200;
-
 	}
 
     h4{
         font-size: 0.5rem;
         color: lightpink;
         z-index: 200;
-
     }
+
+	img{
+		size: 50%;
+	}
 }
 
 /*Blinking Text Animation------------------------------------------*/
