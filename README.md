@@ -1,7 +1,7 @@
 # cookieclicker
 
 ### About
-Cookieclicker was a student project for interaction design at (https://www.sfgz.ch)sfgz.ch. The goal was to start coding with JavaScript.
+Cookieclicker was a student project for interaction design at (https://www.sfgz.ch). The goal was to start coding with JavaScript.
 
 ### How to play
 * A click enlarges the cookie
