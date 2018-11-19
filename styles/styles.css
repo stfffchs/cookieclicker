@@ -154,17 +154,14 @@ a{
 
 #firework
 	{
-	background: black;
-/*	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;*/
-	width: 100vw;
-	height: 100vh;;
-	margin: 0 auto;
-	position:absolute;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:black;
 	z-index: 200;
+	text-align: center;
 }
 
 
