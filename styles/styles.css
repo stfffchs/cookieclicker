@@ -177,3 +177,31 @@ a{
 		z-index: 200;
 		text-align: center;
 }
+
+.home {
+
+    position: fixed;
+    bottom: 50px;
+    left: 40px;
+    z-index: 400;
+    font-size: 1rem;
+    color: black;
+    border: black;
+}
+
+
+a:link, a:visited {
+    background-color:lightpink;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+a:hover, a:active {
+    background-color: lightpink ;
+    border-color: black;
+}
